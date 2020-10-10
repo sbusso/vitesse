@@ -1,14 +1,14 @@
 <template>
-  <div class="text-xl mt-6">
-    <div class="icon-btn mx-2" @click="isDark = !isDark">
+  <div class="mt-6 text-xl">
+    <div class="mx-2 icon-btn" @click="isDark = !isDark">
       <Icon :icon="isDark ? 'carbon:moon' : 'carbon:sun'" class="inline-block" />
     </div>
 
-    <div class="icon-btn mx-2" @click="toggleLocales">
+    <div class="mx-2 icon-btn" @click="toggleLocales">
       <Icon icon="carbon:language" class="inline-block" />
     </div>
 
-    <a class="icon-btn mx-2" href="https://github.com/antfu/vitesse" target="_blank">
+    <a class="mx-2 icon-btn" href="https://github.com/sbusso/vitesse" target="_blank">
       <Icon icon="carbon:code" class="inline-block" />
     </a>
   </div>
