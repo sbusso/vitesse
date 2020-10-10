@@ -1,6 +1,6 @@
 {
-  "name": "@vitesse/template",
-  "version": "0.0.0",
+  "name": "@vitesse-layout/template",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "dev": "vite --port 3333 --open",
